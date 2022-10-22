@@ -1,0 +1,30 @@
+main()
+{
+	print("Hello World")
+	
+	int a = 15;
+	int b = 36;
+
+	print(a + b);
+
+	if (a is 15 and b is 36)
+	{
+		print("and Test succeeded");
+	}
+
+	if (a is 7 or b is 36)
+	{
+		print("or Test succeeded");
+	}
+
+	List<int> myList = List<int>();
+
+	myList.Add(5);
+	myList.Add(7);
+	myList.Add(9);
+
+	foreach (int elem in myList)
+	{
+		print(elem);
+	}
+}
